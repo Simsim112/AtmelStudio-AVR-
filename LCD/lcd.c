@@ -48,12 +48,13 @@ void Lcd_STR(Byte *str)
 void Lcd_Pos(Byte col, Byte row)
 {
 	Lcd_Cmd(0x80 | (row + col * 0x40));
+	_delay_ms(5);
 }
 
 void Lcd_Clear(void)
 {
 	Lcd_Cmd(0x01);
-	_delay_ms(2);
+	_delay_ms(10);
 }
 
 void Lcd_Shift(Byte p)
