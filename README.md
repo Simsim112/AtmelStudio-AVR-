@@ -7,5 +7,5 @@
 - 스위치로 FND 출력
 
 ## 2일차(GPIO + LCD)
-- Inturrept를 사용하여 LED 양쪽 이동
-- Inturrept를 사용하여 FND 멈추고 다시 
+- Inturrept를 사용하여 스위치로 LED 양쪽이동
+- Inturrept를 사용하여 버튼으로 FND 초기화, 시작 
