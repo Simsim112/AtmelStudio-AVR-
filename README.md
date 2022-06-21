@@ -12,7 +12,7 @@
 - LCD 모니터로 글자 출력
 - LCD 모니터로 구구단 출력하면서 Interrupt 발생시 잠시 중지 
 
-## 3일차(UART + Timer_COunter)
+## 3일차(UART + Timer_Counter)
 - UART를 사용해서 Hllo 보내기
 - 스위치 입력 값 보내기
 - PC 데이터 주고받기
