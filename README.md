@@ -1,10 +1,8 @@
 # AtmelStudio-AVR
 
 ## 1일차(GPIO)
-- LED Module 점등
-- 스위치로 LED 점등
-- FND 출력확인
-- 스위치로 FND 출력
+- LED Module 점등(+스위치)
+- FND 출력확인(+스위치)
 
 ## 2일차(GPIO + LCD)
 - Interrupt를 사용하여 스위치로 LED 양쪽이동
@@ -28,4 +26,10 @@
 - 타이머를 이용해서 스위치 누른시간 구하기
 - PWM으로 LED 밝기 조절하기
 - 스위치 입력값 따라서 LED 밝기 조절
-- PWM으로 PIEZO울리기(진행중)
+- PWM으로 PIEZO울리기
+
+## 5일차(Timer_Counter16bit+
+- PWM으로 PIEZO울리기 완성
+- 스위치 눌러서 PIEZO 울리기
+- 스텝모터(1여자 방식, 2여자 방식, 1-2 여자방식)
+- 키패드 입력 후 출력 
