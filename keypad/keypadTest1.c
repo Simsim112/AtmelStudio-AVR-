@@ -30,7 +30,7 @@ int main()
 unsigned char keyScan()
 {
 	PORTA = 0xF7;						//0b 1111 0111
-	if(PORTA = 0xF7 && PINA == 0xFE) return '1';		//0b 1111 1110;
+	if(PINA == 0xF6) return '1';		//0b 1111 0110;
 	else if(PINA == 0xF5) return '2';	//0b 1111 0101;
 	else if(PINA == 0xF3) return '3';	//0b 1111 0011;
 	_delay_ms(100);
